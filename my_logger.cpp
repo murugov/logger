@@ -1,11 +1,13 @@
 #include "my_logger.h"
 
-// static FILE *log_file = NULL;
+static FILE *log_file = NULL;
+
+const char* verdict_strings[] = {"INFO", "DEBUG", "WARN", "ERROR"};
 
 void log_message(int verdict, const char* file, int line, const char* message)
 {
     FILE *log_file = fopen("message.log", "a");
-    
+
     if (log_file == NULL) {
         perror("ERROR: Cannot open log file\n");
         exit(1);

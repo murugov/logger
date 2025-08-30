@@ -8,8 +8,6 @@
 
 enum {INFO = 0, DEBUG, WARNING, ERROR};
 
-const char* verdict_strings[] = {"INFO", "DEBUG", "WARN", "ERROR"};
-
 void log_message(int verdict, const char* file, int line, const char* message);
 
 #define LOG_INFO(message) log_message(INFO,  __FILE__, __LINE__, message)
