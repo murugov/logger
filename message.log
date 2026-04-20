@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 [2025-12-29 20:48:46] INFO  main.cpp:9: Program started
 [2025-12-29 20:48:46] DEBUG main.cpp:10: User John connected from 192.168.1.1
 [2025-12-29 20:48:46] WARN  main.cpp:11: Memory usage: 85%
 [2025-12-29 20:48:46] ERROR main.cpp:12: Data overlow
+=======
+[2025-08-31 00:45:28] INFO  main.cpp:5: INFO
+[2025-08-31 00:45:28] DEBUG main.cpp:6: DEBUG
+[2025-08-31 00:45:28] WARN  main.cpp:7: WARNING
+[2025-08-31 00:45:28] ERROR main.cpp:8: ERROR
+>>>>>>> 358babc6800b8f32bf080720032f27682e7f739f
